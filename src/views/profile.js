@@ -22,7 +22,7 @@ const Profile = (props) => {
       <div className={styles['Profile']}>
         <div className={styles['container01']}>
           <div className={styles['container02']}>
-            <h4 className={styles['text']}>Michael Roven</h4>
+            <h4 className={styles['text']}>Derek Smith</h4>
             <OutlineBlueButton button="follow"></OutlineBlueButton>
           </div>
           <div className={styles['container03']}>

@@ -64,7 +64,7 @@
 .navlink2:hover {
   color: var(--dl-color-gray-500);
 }
-.navlink3 {
+.text {
   margin-top: var(--dl-space-space-halfunit);
   transition: 0.3s;
   margin-left: var(--dl-space-space-unit);
@@ -72,7 +72,7 @@
   margin-bottom: var(--dl-space-space-halfunit);
   text-decoration: none;
 }
-.navlink3:hover {
+.text:hover {
   color: var(--dl-color-gray-500);
 }
 .container1 {

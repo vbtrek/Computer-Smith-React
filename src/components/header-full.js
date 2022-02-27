@@ -31,12 +31,9 @@ const HeaderFull = (props) => {
             >
               Profile
             </Link>
-            <Link
-              to="/coming-soon"
-              className={` ${styles['navlink3']} ${projectStyles['large']} `}
-            >
+            <span className={` ${styles['text']} ${projectStyles['large']} `}>
               Coming Soon
-            </Link>
+            </span>
           </div>
           <div className={styles['container1']}>
             <div className={styles['container2']}>

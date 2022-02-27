@@ -30,26 +30,25 @@ const Header = (props) => {
               Home
             </Link>
             <Link
-              to="/profile"
+              to="/projects"
               className={` ${styles['navlink2']} ${projectStyles['large']} `}
             >
-              Profile
-            </Link>
-            <Link
-              to="/coming-soon"
-              className={` ${styles['navlink3']} ${projectStyles['large']} `}
-            >
-              Coming Soon
+              Projects
             </Link>
             <Link
               to="/blog"
-              className={` ${styles['navlink4']} ${projectStyles['large']} `}
+              className={` ${styles['navlink3']} ${projectStyles['large']} `}
             >
               <span>Blog</span>
             </Link>
+            <Link
+              to="/profile"
+              className={` ${styles['navlink4']} ${projectStyles['large']} `}
+            >
+              <span>Contact</span>
+            </Link>
           </div>
           <div className={styles['container1']}>
-            <div className={styles['container2']}></div>
             <div data-type="BurgerMenu" className={styles['BurgerMenu']}>
               <svg viewBox="0 0 1024 1024" className={styles['icon']}>
                 <path d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"></path>
@@ -86,12 +85,9 @@ const Header = (props) => {
             >
               Profile
             </Link>
-            <Link
-              to="/coming-soon"
-              className={` ${styles['navlink8']} ${projectStyles['large']} `}
-            >
+            <span className={` ${styles['text2']} ${projectStyles['large']} `}>
               Coming Soon
-            </Link>
+            </span>
           </div>
         </div>
         <div className={styles['Bot']}>

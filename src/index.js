@@ -4,18 +4,18 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 import './style.module.css'
 import Blog from './views/blog'
-import ComingSoon from './views/coming-soon'
 import Profile from './views/profile'
 import Home from './views/home'
+import Projects from './views/projects'
 
 const App = () => {
   return (
     <Router>
       <div>
         <Route exact component={Blog} path="/blog" />
-        <Route exact component={ComingSoon} path="/coming-soon" />
         <Route exact component={Profile} path="/profile" />
         <Route exact component={Home} path="/" />
+        <Route exact component={Projects} path="/projects" />
       </div>
     </Router>
   )

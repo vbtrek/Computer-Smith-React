@@ -104,13 +104,6 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.container2 {
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-}
 .BurgerMenu {
   display: none;
   align-items: center;
@@ -192,11 +185,11 @@
 .navlink7:hover {
   color: var(--dl-color-gray-500);
 }
-.navlink8 {
+.text2 {
   transition: 0.3s;
   text-decoration: none;
 }
-.navlink8:hover {
+.text2:hover {
   color: var(--dl-color-gray-500);
 }
 .Bot {
@@ -217,10 +210,5 @@
 @media(max-width: 767px) {
   .BurgerMenu {
     display: flex;
-  }
-}
-@media(max-width: 479px) {
-  .container2 {
-    display: none;
   }
 }
