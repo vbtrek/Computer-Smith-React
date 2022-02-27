@@ -17,8 +17,8 @@ const Header = (props) => {
         <div className={styles['container']}>
           <Link to="/" className={styles['navlink']}>
             <img
-              src={props.image_src}
               alt={props.image_alt}
+              src="/playground_assets/cs-webnode-about-200h.png"
               className={styles['image']}
             />
           </Link>
