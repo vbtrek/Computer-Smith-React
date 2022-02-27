@@ -1,13 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+import PropTypes from 'prop-types'
+
 import PrimaryPinkButton from './primary-pink-button'
 import projectStyles from '../style.module.css'
 import styles from './header-full.module.css'
 
 const HeaderFull = (props) => {
   return (
-    <div className={styles['Header']}>
+    <div className={` ${styles['Header']} ${styles[props.rootClassName]} `}>
       <nav className={styles['Nav']}>
         <div className={styles['container']}>
           <Link
@@ -48,6 +50,14 @@ const HeaderFull = (props) => {
       </nav>
     </div>
   )
+}
+
+HeaderFull.defaultProps = {
+  rootClassName: '',
+}
+
+HeaderFull.propTypes = {
+  rootClassName: PropTypes.string,
 }
 
 export default HeaderFull

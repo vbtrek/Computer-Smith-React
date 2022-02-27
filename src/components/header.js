@@ -15,11 +15,12 @@ const Header = (props) => {
     >
       <nav className={styles['Nav']}>
         <div className={styles['container']}>
-          <Link
-            to="/"
-            className={` ${styles['navlink']} ${projectStyles['large']} `}
-          >
-            Soft UI Design System
+          <Link to="/" className={styles['navlink']}>
+            <img
+              src={props.image_src}
+              alt={props.image_alt}
+              className={styles['image']}
+            />
           </Link>
           <div className={styles['Menu']}>
             <Link
@@ -48,9 +49,7 @@ const Header = (props) => {
             </Link>
           </div>
           <div className={styles['container1']}>
-            <div className={styles['container2']}>
-              <PrimaryPinkButton button="buy now"></PrimaryPinkButton>
-            </div>
+            <div className={styles['container2']}></div>
             <div data-type="BurgerMenu" className={styles['BurgerMenu']}>
               <svg viewBox="0 0 1024 1024" className={styles['icon']}>
                 <path d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"></path>
@@ -105,10 +104,14 @@ const Header = (props) => {
 
 Header.defaultProps = {
   rootClassName: '',
+  image_src: 'c1491fda-129f-4ad1-b71b-9287ab1aecf6',
+  image_alt: 'image',
 }
 
 Header.propTypes = {
   rootClassName: PropTypes.string,
+  image_src: PropTypes.string,
+  image_alt: PropTypes.string,
 }
 
 export default Header

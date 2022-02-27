@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Helmet } from 'react-helmet'
 
-import HeaderFull from '../components/header-full'
+import Header from '../components/header'
 import OutlineBlueButton from '../components/outline-blue-button'
 import NextButton from '../components/next-button'
 import BlogCard from '../components/blog-card'
@@ -18,13 +18,8 @@ const Profile = (props) => {
         <title>Profile - Computer Smith</title>
         <meta property="og:title" content="Profile - Computer Smith" />
       </Helmet>
-      <HeaderFull></HeaderFull>
+      <Header></Header>
       <div className={styles['Profile']}>
-        <img
-          alt="image"
-          src="/playground_assets/bruce-mars-200h.jpg"
-          className={styles['image']}
-        />
         <div className={styles['container01']}>
           <div className={styles['container02']}>
             <h4 className={styles['text']}>Michael Roven</h4>
@@ -226,7 +221,7 @@ const Profile = (props) => {
             <img
               alt="image"
               src="/playground_assets/wave-1.svg"
-              className={styles['image1']}
+              className={styles['image']}
             />
             <div className={styles['container18']}></div>
           </div>
