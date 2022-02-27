@@ -6,7 +6,7 @@ import Header from '../components/header'
 import BlogCard from '../components/blog-card'
 import styles from './blog.module.css'
 
-const Blog = () => {
+const Blog = (props) => {
   return (
     <div className={styles['container']}>
       <Helmet>

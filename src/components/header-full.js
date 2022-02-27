@@ -5,7 +5,7 @@ import PrimaryPinkButton from './primary-pink-button'
 import projectStyles from '../style.module.css'
 import styles from './header-full.module.css'
 
-const HeaderFull = () => {
+const HeaderFull = (props) => {
   return (
     <div className={styles['Header']}>
       <nav className={styles['Nav']}>

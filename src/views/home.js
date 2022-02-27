@@ -12,7 +12,7 @@ import Footer from '../components/footer'
 import projectStyles from '../style.module.css'
 import styles from './home.module.css'
 
-const Home = () => {
+const Home = (props) => {
   return (
     <div className={styles['container']}>
       <Helmet>

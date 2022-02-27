@@ -11,7 +11,7 @@ import Footer from '../components/footer'
 import projectStyles from '../style.module.css'
 import styles from './profile.module.css'
 
-const Profile = () => {
+const Profile = (props) => {
   return (
     <div className={styles['container']}>
       <Helmet>

@@ -3,7 +3,7 @@ import React from 'react'
 import projectStyles from '../style.module.css'
 import styles from './footer.module.css'
 
-const Footer = () => {
+const Footer = (props) => {
   return (
     <footer className={styles['Footer']}>
       <div className={styles['container']}>

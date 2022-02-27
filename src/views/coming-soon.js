@@ -8,7 +8,7 @@ import FooterGray from '../components/footer-gray'
 import projectStyles from '../style.module.css'
 import styles from './coming-soon.module.css'
 
-const ComingSoon = () => {
+const ComingSoon = (props) => {
   return (
     <div className={styles['container']}>
       <Helmet>

@@ -3,7 +3,7 @@ import React from 'react'
 import projectStyles from '../style.module.css'
 import styles from './footer-gray.module.css'
 
-const FooterGray = () => {
+const FooterGray = (props) => {
   return (
     <footer className={styles['Footer']}>
       <div className={styles['Divider']}></div>
