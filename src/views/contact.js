@@ -168,11 +168,6 @@ const Contact = (props) => {
                 </a>
               </div>
             </div>
-            <img
-              alt="image"
-              src="/playground_assets/wave-1.svg"
-              className={styles['image']}
-            />
             <div className={styles['container09']}></div>
           </div>
         </div>
