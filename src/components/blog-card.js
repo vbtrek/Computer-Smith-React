@@ -14,6 +14,7 @@ const BlogCard = (props) => {
         className={styles['image']}
       />
       <h5 className={styles['text']}>{props.title}</h5>
+      <h5 className={styles['text1']}>{props.Date}</h5>
       <span>{props.description}</span>
       <NextButton button="Read more"></NextButton>
     </div>
@@ -23,10 +24,11 @@ const BlogCard = (props) => {
 BlogCard.defaultProps = {
   rootClassName: '',
   image_alt: 'image',
-  description: 'Summary',
+  description: '',
   title: 'TODO Title',
   image_src:
     'https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE2fHxibG9nJTIwcG9zdHxlbnwwfHx8fDE2NDYwMDcyODQ&ixlib=rb-1.2.1&w=200',
+  Date: 'dd-mmm-yyyy',
 }
 
 BlogCard.propTypes = {
@@ -35,6 +37,7 @@ BlogCard.propTypes = {
   description: PropTypes.string,
   title: PropTypes.string,
   image_src: PropTypes.string,
+  Date: PropTypes.string,
 }
 
 export default BlogCard

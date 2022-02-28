@@ -100,14 +100,14 @@ const Header = (props) => {
 
 Header.defaultProps = {
   rootClassName: '',
-  image_src: 'c1491fda-129f-4ad1-b71b-9287ab1aecf6',
   image_alt: 'image',
+  image_src: 'c1491fda-129f-4ad1-b71b-9287ab1aecf6',
 }
 
 Header.propTypes = {
   rootClassName: PropTypes.string,
-  image_src: PropTypes.string,
   image_alt: PropTypes.string,
+  image_src: PropTypes.string,
 }
 
 export default Header

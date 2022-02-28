@@ -38,10 +38,19 @@
   font-weight: 300;
   margin-bottom: var(--dl-space-space-unit);
 }
-.text01 {
-  color: var(--dl-color-gray-700);
+.text13 {
+  font-family: Fira Sans;
 }
-.text07 {
+.text26 {
+  text-decoration: underline;
+}
+.text28 {
+  text-decoration: underline;
+}
+.text48 {
+  text-decoration: underline;
+}
+.text50 {
   text-decoration: underline;
 }
 @media(max-width: 479px) {

@@ -28,13 +28,26 @@ const Blog = (props) => {
             className={styles['navlink']}
           >
             <BlogCard
+              Date="17-Nov-2021"
               title="Upgrade HP Microserver from XPenology to TrueNAS SCALE"
-              description=" "
               className={styles['component1']}
             ></BlogCard>
           </Link>
-          <BlogCard></BlogCard>
-          <BlogCard></BlogCard>
+          <BlogCard
+            Date="31-Jan-2021"
+            title="The Road to Apple CarPlay in an older car"
+            className={styles['component2']}
+          ></BlogCard>
+          <Link
+            to="/blog-page003-flashing-costco-feit-smart-bulbs-with-tasmota"
+            className={styles['navlink1']}
+          >
+            <BlogCard
+              Date="05-Jan-2021"
+              title="Flashing Costco Feit Smart Bulbs with Tasmota"
+              className={styles['component3']}
+            ></BlogCard>
+          </Link>
         </div>
       </div>
     </div>

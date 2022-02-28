@@ -5,7 +5,6 @@ import { Helmet } from 'react-helmet'
 import Header from '../components/header'
 import NextButton from '../components/next-button'
 import PrimaryBlueButton from '../components/primary-blue-button'
-import Footer from '../components/footer'
 import projectStyles from '../style.module.css'
 import styles from './contact.module.css'
 
@@ -181,7 +180,6 @@ const Contact = (props) => {
           </div>
         </div>
       </div>
-      <Footer></Footer>
     </div>
   )
 }

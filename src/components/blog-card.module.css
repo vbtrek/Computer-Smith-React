@@ -24,4 +24,8 @@
   font-weight: 600;
   margin-bottom: var(--dl-space-space-halfunit);
 }
+.text1 {
+  font-style: italic;
+  font-weight: 300;
+}
 

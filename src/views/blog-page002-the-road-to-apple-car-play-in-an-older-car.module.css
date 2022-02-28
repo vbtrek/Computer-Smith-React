@@ -38,11 +38,21 @@
   font-weight: 300;
   margin-bottom: var(--dl-space-space-unit);
 }
-.text01 {
-  color: var(--dl-color-gray-700);
-}
 .text07 {
   text-decoration: underline;
+}
+.text09 {
+  text-decoration: underline;
+}
+.ul {
+  list-style-type: square;
+}
+.text21 {
+  text-decoration: underline;
+}
+.ul1 {
+  list-style-type: square;
+  list-style-position: outside;
 }
 @media(max-width: 479px) {
   .text {

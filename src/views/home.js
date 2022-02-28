@@ -7,8 +7,6 @@ import PrimaryPinkButton from '../components/primary-pink-button'
 import OutlineGrayButton from '../components/outline-gray-button'
 import FeatureCard from '../components/feature-card'
 import OutlineBlackButton from '../components/outline-black-button'
-import ListItem from '../components/list-item'
-import Footer from '../components/footer'
 import projectStyles from '../style.module.css'
 import styles from './home.module.css'
 
@@ -279,34 +277,11 @@ const Home = (props) => {
               <OutlineBlackButton button="get started"></OutlineBlackButton>
             </div>
           </div>
-          <div className={styles['container29']}>
-            <ListItem></ListItem>
-            <ListItem
-              title="2. Performance Analyze"
-              description="Unify data from Facebook, Instagram, Twitter, LinkedIn, and Youtube to gain rich insights from easy-to-use reports."
-            ></ListItem>
-            <ListItem
-              title="3. Social Conversions"
-              description="Track actions taken on your website that originated from social, and understand the impact on your bottom line."
-            ></ListItem>
-          </div>
+          <div className={styles['container29']}></div>
         </div>
         <div className={styles['Divider']}></div>
         <div className={styles['container30']}>
-          <div className={styles['container31']}>
-            <ListItem
-              title="1. Always in Sync"
-              description="No matter where you are, Trello stays in sync across all of your devices."
-            ></ListItem>
-            <ListItem
-              title="2. Work With Any Team"
-              description="Unify data from Facebook, Instagram, Twitter, LinkedIn, and Youtube to gain rich insights from easy-to-use reports."
-            ></ListItem>
-            <ListItem
-              title="3. A Productivity Platform"
-              description="Integrate the apps your team already uses directly into your workflow."
-            ></ListItem>
-          </div>
+          <div className={styles['container31']}></div>
           <div className={styles['container32']}>
             <div className={styles['container33']}></div>
             <div className={styles['container34']}>
@@ -327,7 +302,6 @@ const Home = (props) => {
           </div>
         </div>
       </section>
-      <Footer></Footer>
     </div>
   )
 }
