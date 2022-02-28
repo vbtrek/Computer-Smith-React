@@ -33,14 +33,19 @@ const Blog = (props) => {
               className={styles['component1']}
             ></BlogCard>
           </Link>
-          <BlogCard
-            Date="31-Jan-2021"
-            title="The Road to Apple CarPlay in an older car"
-            className={styles['component2']}
-          ></BlogCard>
+          <Link
+            to="/blog-page002-the-road-to-apple-car-play-in-an-older-car"
+            className={styles['navlink1']}
+          >
+            <BlogCard
+              Date="31-Jan-2021"
+              title="The Road to Apple CarPlay in an older car"
+              className={styles['component2']}
+            ></BlogCard>
+          </Link>
           <Link
             to="/blog-page003-flashing-costco-feit-smart-bulbs-with-tasmota"
-            className={styles['navlink1']}
+            className={styles['navlink2']}
           >
             <BlogCard
               Date="05-Jan-2021"

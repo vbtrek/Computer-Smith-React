@@ -44,7 +44,7 @@
   display: contents;
 }
 .image {
-  width: 100px;
+  width: 130px;
   object-fit: cover;
   text-decoration: none;
 }

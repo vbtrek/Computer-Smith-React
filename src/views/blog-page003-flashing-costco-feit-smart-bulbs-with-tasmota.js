@@ -177,6 +177,16 @@ const BlogPage003FlashingCostcoFeitSmartBulbsWithTasmota = (props) => {
             <li className={projectStyles['list-item']}>
               <span>
                 <span>
+                  Perhaps enter &quot;Configuration -&gt; Configure
+                  Logging&quot; and enable Syslog and enter your Syslog host.
+                </span>
+                <br></br>
+                <span></span>
+              </span>
+            </li>
+            <li className={projectStyles['list-item']}>
+              <span>
+                <span>
                   Check &quot;Configuration -&gt; Configure WiFi&quot; for your
                   AP SSID and Password and optionally enter a Hostname.
                 </span>
@@ -190,16 +200,6 @@ const BlogPage003FlashingCostcoFeitSmartBulbsWithTasmota = (props) => {
                   Go to &quot;Configuration -&gt; Configure MQTT&quot; and enter
                   your MQTT broker IP address, username, and password. Also set
                   a unique Topic.
-                </span>
-                <br></br>
-                <span></span>
-              </span>
-            </li>
-            <li className={projectStyles['list-item']}>
-              <span>
-                <span>
-                  Perhaps enter &quot;Configuration -&gt; Configure
-                  Logging&quot; and enable Syslog and enter your Syslog host.
                 </span>
                 <br></br>
                 <span></span>

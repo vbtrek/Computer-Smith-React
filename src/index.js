@@ -5,7 +5,6 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 import './style.module.css'
 import BlogPage002TheRoadToAppleCarPlayInAnOlderCar from './views/blog-page002-the-road-to-apple-car-play-in-an-older-car'
 import Blog from './views/blog'
-import Page from './views/page'
 import BlogPage001UpgradeHPMicroserverFromXPenologyToTrueNASSCALE from './views/blog-page001-upgrade-h-p-microserver-from-x-penology-to-true-n-a-s-s-c-a-l-e'
 import Contact from './views/contact'
 import Projects from './views/projects'
@@ -22,7 +21,6 @@ const App = () => {
           path="/blog-page002-the-road-to-apple-car-play-in-an-older-car"
         />
         <Route exact component={Blog} path="/blog" />
-        <Route exact component={Page} path="/page" />
         <Route
           exact
           component={BlogPage001UpgradeHPMicroserverFromXPenologyToTrueNASSCALE}

@@ -7,7 +7,7 @@ import styles from './primary-blue-button.module.css'
 
 const PrimaryBlueButton = (props) => {
   return (
-    <div className={styles['container']}>
+    <div className={` ${styles['container']} ${styles[props.rootClassName]} `}>
       <button
         className={` ${styles['button']} ${projectStyles['button']} ${projectStyles['buttonSmall']} `}
       >
@@ -18,10 +18,12 @@ const PrimaryBlueButton = (props) => {
 }
 
 PrimaryBlueButton.defaultProps = {
+  rootClassName: '',
   button: 'Button',
 }
 
 PrimaryBlueButton.propTypes = {
+  rootClassName: PropTypes.string,
   button: PropTypes.string,
 }
 
