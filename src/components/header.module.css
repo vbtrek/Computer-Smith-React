@@ -199,15 +199,16 @@
   flex-direction: column;
 }
 
+
 @media(max-width: 991px) {
   .Nav {
     max-width: 960px;
   }
+}
+@media(max-width: 767px) {
   .Menu {
     display: none;
   }
-}
-@media(max-width: 767px) {
   .BurgerMenu {
     display: flex;
   }

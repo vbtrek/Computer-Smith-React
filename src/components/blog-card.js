@@ -23,11 +23,10 @@ const BlogCard = (props) => {
 BlogCard.defaultProps = {
   rootClassName: '',
   image_alt: 'image',
-  description:
-    'Finding temporary housing for your dog should be as easy as renting an Airbnb. Thatâs the idea behind Rover',
-  title: 'Rover raised $65 million',
+  description: 'Summary',
+  title: 'TODO Title',
   image_src:
-    'https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/color-bags.jpg',
+    'https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE2fHxibG9nJTIwcG9zdHxlbnwwfHx8fDE2NDYwMDcyODQ&ixlib=rb-1.2.1&w=200',
 }
 
 BlogCard.propTypes = {

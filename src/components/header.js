@@ -42,7 +42,7 @@ const Header = (props) => {
               <span>Blog</span>
             </Link>
             <Link
-              to="/profile"
+              to="/contact"
               className={` ${styles['navlink4']} ${projectStyles['large']} `}
             >
               <span>Contact</span>
@@ -80,7 +80,7 @@ const Header = (props) => {
               Home
             </Link>
             <Link
-              to="/profile"
+              to="/contact"
               className={` ${styles['navlink7']} ${projectStyles['large']} `}
             >
               Profile

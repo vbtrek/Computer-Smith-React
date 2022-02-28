@@ -26,7 +26,7 @@ const HeaderFull = (props) => {
               Home
             </Link>
             <Link
-              to="/profile"
+              to="/contact"
               className={` ${styles['navlink2']} ${projectStyles['large']} `}
             >
               Profile
