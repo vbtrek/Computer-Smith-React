@@ -2,15 +2,12 @@ import React from 'react'
 
 import PropTypes from 'prop-types'
 
-import projectStyles from '../style.module.css'
-import styles from './outline-gray-button.module.css'
+import './outline-gray-button.css'
 
 const OutlineGrayButton = (props) => {
   return (
-    <div className={styles['container']}>
-      <button
-        className={` ${styles['button']} ${projectStyles['button']} ${projectStyles['buttonSmall']} `}
-      >
+    <div className="outline-gray-button-container">
+      <button className="outline-gray-button-button button buttonSmall">
         {props.button}
       </button>
     </div>

@@ -4,94 +4,73 @@ import { Link } from 'react-router-dom'
 import PropTypes from 'prop-types'
 
 import PrimaryPinkButton from './primary-pink-button'
-import projectStyles from '../style.module.css'
-import styles from './header.module.css'
+import './header.css'
 
 const Header = (props) => {
   return (
-    <div
-      data-role="Header"
-      className={` ${styles['Header']} ${styles[props.rootClassName]} `}
-    >
-      <nav className={styles['Nav']}>
-        <div className={styles['container']}>
-          <Link to="/" className={styles['navlink']}>
+    <div data-role="Header" className={`header-header ${props.rootClassName} `}>
+      <nav className="header-nav">
+        <div className="header-container">
+          <Link to="/" className="header-navlink">
             <img
               alt={props.image_alt}
               src="/playground_assets/cs-webnode-about-200h.png"
-              className={styles['image']}
+              className="header-image"
             />
           </Link>
-          <div className={styles['Menu']}>
-            <Link
-              to="/"
-              className={` ${styles['navlink1']} ${projectStyles['large']} `}
-            >
+          <div className="header-menu">
+            <Link to="/" className="header-navlink1 large">
               Home
             </Link>
-            <Link
-              to="/projects"
-              className={` ${styles['navlink2']} ${projectStyles['large']} `}
-            >
+            <Link to="/projects" className="header-navlink2 large">
               Projects
             </Link>
-            <Link
-              to="/blog"
-              className={` ${styles['navlink3']} ${projectStyles['large']} `}
-            >
-              <span>Blog</span>
+            <Link to="/blog" className="header-navlink3 large">
+              <span className="">Blog</span>
             </Link>
-            <Link
-              to="/contact"
-              className={` ${styles['navlink4']} ${projectStyles['large']} `}
-            >
-              <span>Contact</span>
+            <Link to="/contact" className="header-navlink4 large">
+              <span className="">Contact</span>
             </Link>
           </div>
-          <div className={styles['container1']}>
-            <div data-type="BurgerMenu" className={styles['BurgerMenu']}>
-              <svg viewBox="0 0 1024 1024" className={styles['icon']}>
-                <path d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"></path>
+          <div className="header-container1">
+            <div data-type="BurgerMenu" className="header-burger-menu">
+              <svg viewBox="0 0 1024 1024" className="header-icon">
+                <path
+                  d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"
+                  className=""
+                ></path>
               </svg>
             </div>
           </div>
         </div>
       </nav>
-      <div data-type="MobileMenu" className={styles['MobileMenu']}>
-        <div className={styles['Top']}>
-          <Link
-            to="/"
-            className={` ${styles['navlink5']} ${projectStyles['large']} `}
-          >
+      <div data-type="MobileMenu" className="header-mobile-menu">
+        <div className="header-top">
+          <Link to="/" className="header-navlink5 large">
             Soft UI Design System
           </Link>
-          <div data-type="CloseMobileMenu" className={styles['CloseMenu']}>
-            <svg viewBox="0 0 1024 1024" className={styles['icon2']}>
-              <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
+          <div data-type="CloseMobileMenu" className="header-close-menu">
+            <svg viewBox="0 0 1024 1024" className="header-icon2">
+              <path
+                d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                className=""
+              ></path>
             </svg>
           </div>
         </div>
-        <div className={styles['Mid']}>
-          <div className={styles['Menu1']}>
-            <Link
-              to="/"
-              className={` ${styles['navlink6']} ${projectStyles['large']} `}
-            >
+        <div className="header-mid">
+          <div className="header-menu1">
+            <Link to="/" className="header-link large">
               Home
             </Link>
-            <Link
-              to="/contact"
-              className={` ${styles['navlink7']} ${projectStyles['large']} `}
-            >
+            <Link to="/contact" className="header-navlink6 large">
               Profile
             </Link>
-            <span className={` ${styles['text2']} ${projectStyles['large']} `}>
-              Coming Soon
-            </span>
+            <span className="header-text2 large">Coming Soon</span>
           </div>
         </div>
-        <div className={styles['Bot']}>
-          <PrimaryPinkButton button="buy now"></PrimaryPinkButton>
+        <div className="header-bot">
+          <PrimaryPinkButton button="buy now" className=""></PrimaryPinkButton>
         </div>
       </div>
     </div>

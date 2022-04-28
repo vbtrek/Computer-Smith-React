@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
-import './style.module.css'
+import './style.css'
 import BlogPage002TheRoadToAppleCarPlayInAnOlderCar from './views/blog-page002-the-road-to-apple-car-play-in-an-older-car'
 import Blog from './views/blog'
 import BlogPage001UpgradeHPMicroserverFromXPenologyToTrueNASSCALE from './views/blog-page001-upgrade-h-p-microserver-from-x-penology-to-true-n-a-s-s-c-a-l-e'

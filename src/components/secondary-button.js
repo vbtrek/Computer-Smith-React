@@ -2,15 +2,12 @@ import React from 'react'
 
 import PropTypes from 'prop-types'
 
-import projectStyles from '../style.module.css'
-import styles from './secondary-button.module.css'
+import './secondary-button.css'
 
 const SecondaryButton = (props) => {
   return (
-    <div className={styles['container']}>
-      <button
-        className={` ${styles['button']} ${projectStyles['button']} ${projectStyles['buttonSmall']} `}
-      >
+    <div className="secondary-button-container">
+      <button className="secondary-button-button button buttonSmall">
         {props.button}
       </button>
     </div>

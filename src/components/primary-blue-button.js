@@ -2,15 +2,12 @@ import React from 'react'
 
 import PropTypes from 'prop-types'
 
-import projectStyles from '../style.module.css'
-import styles from './primary-blue-button.module.css'
+import './primary-blue-button.css'
 
 const PrimaryBlueButton = (props) => {
   return (
-    <div className={` ${styles['container']} ${styles[props.rootClassName]} `}>
-      <button
-        className={` ${styles['button']} ${projectStyles['button']} ${projectStyles['buttonSmall']} `}
-      >
+    <div className={`primary-blue-button-container ${props.rootClassName} `}>
+      <button className="primary-blue-button-button button buttonSmall">
         {props.button}
       </button>
     </div>

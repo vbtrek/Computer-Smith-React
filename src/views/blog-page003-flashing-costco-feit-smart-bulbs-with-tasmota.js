@@ -3,12 +3,11 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 
 import Header from '../components/header'
-import projectStyles from '../style.module.css'
-import styles from './blog-page003-flashing-costco-feit-smart-bulbs-with-tasmota.module.css'
+import './blog-page003-flashing-costco-feit-smart-bulbs-with-tasmota.css'
 
 const BlogPage003FlashingCostcoFeitSmartBulbsWithTasmota = (props) => {
   return (
-    <div className={styles['container']}>
+    <div className="blog-page003flashing-costco-feit-smart-bulbs-with-tasmota-container">
       <Helmet>
         <title>
           BlogPage003-Flashing-Costco-Feit-Smart-Bulbs-with-Tasmota - Computer
@@ -19,13 +18,15 @@ const BlogPage003FlashingCostcoFeitSmartBulbsWithTasmota = (props) => {
           content="BlogPage003-Flashing-Costco-Feit-Smart-Bulbs-with-Tasmota - Computer Smith"
         />
       </Helmet>
-      <Header rootClassName="rootClassName4"></Header>
-      <div className={styles['container1']}>
-        <div className={styles['FeatureCard']}>
-          <h2 className={styles['text']}>
+      <Header rootClassName="header-root-class-name4"></Header>
+      <div className="blog-page003flashing-costco-feit-smart-bulbs-with-tasmota-container1">
+        <div className="blog-page003flashing-costco-feit-smart-bulbs-with-tasmota-feature-card">
+          <h2 className="blog-page003flashing-costco-feit-smart-bulbs-with-tasmota-text">
             Flashing Costco Feit Smart Bulbs with Tasmota
           </h2>
-          <h3 className={styles['Heading']}>05-jan-2021</h3>
+          <h3 className="blog-page003flashing-costco-feit-smart-bulbs-with-tasmota-heading">
+            05-jan-2021
+          </h3>
           <span>
             <span>
               About five years ago, a company in China came up with a low-cost
@@ -83,7 +84,7 @@ const BlogPage003FlashingCostcoFeitSmartBulbsWithTasmota = (props) => {
               and dirty:
             </span>
           </span>
-          <span className={styles['text13']}>
+          <span className="blog-page003flashing-costco-feit-smart-bulbs-with-tasmota-text13">
             <span>
               # git clone https://github.com/ct-Open-Source/tuya-convert
             </span>
@@ -142,7 +143,9 @@ const BlogPage003FlashingCostcoFeitSmartBulbsWithTasmota = (props) => {
               target="_blank"
               rel="noreferrer noopener"
             >
-              <span className={styles['text26']}>BPA800/RGBW/AG/2(P)</span>
+              <span className="blog-page003flashing-costco-feit-smart-bulbs-with-tasmota-text26">
+                BPA800/RGBW/AG/2(P)
+              </span>
             </a>
             <span>
               {' '}
@@ -158,7 +161,9 @@ const BlogPage003FlashingCostcoFeitSmartBulbsWithTasmota = (props) => {
               target="_blank"
               rel="noreferrer noopener"
             >
-              <span className={styles['text28']}>BPA800/RGBW/AG/2</span>
+              <span className="blog-page003flashing-costco-feit-smart-bulbs-with-tasmota-text28">
+                BPA800/RGBW/AG/2
+              </span>
             </a>
             <span>
               . On a fresh install, you can simply paste the template in on the
@@ -173,8 +178,8 @@ const BlogPage003FlashingCostcoFeitSmartBulbsWithTasmota = (props) => {
               the user interface:
             </span>
           </span>
-          <ul className={projectStyles['list']}>
-            <li className={projectStyles['list-item']}>
+          <ul className="list">
+            <li className="list-item">
               <span>
                 <span>
                   Perhaps enter &quot;Configuration -&gt; Configure
@@ -184,7 +189,7 @@ const BlogPage003FlashingCostcoFeitSmartBulbsWithTasmota = (props) => {
                 <span></span>
               </span>
             </li>
-            <li className={projectStyles['list-item']}>
+            <li className="list-item">
               <span>
                 <span>
                   Check &quot;Configuration -&gt; Configure WiFi&quot; for your
@@ -194,7 +199,7 @@ const BlogPage003FlashingCostcoFeitSmartBulbsWithTasmota = (props) => {
                 <span></span>
               </span>
             </li>
-            <li className={projectStyles['list-item']}>
+            <li className="list-item">
               <span>
                 <span>
                   Go to &quot;Configuration -&gt; Configure MQTT&quot; and enter
@@ -205,7 +210,7 @@ const BlogPage003FlashingCostcoFeitSmartBulbsWithTasmota = (props) => {
                 <span></span>
               </span>
             </li>
-            <li className={projectStyles['list-item']}>
+            <li className="list-item">
               <span>
                 <span>
                   Go to &quot;Configuration -&gt; Configure Other&quot; and give
@@ -241,7 +246,7 @@ const BlogPage003FlashingCostcoFeitSmartBulbsWithTasmota = (props) => {
               target="_blank"
               rel="noreferrer noopener"
             >
-              <span className={styles['text48']}>
+              <span className="blog-page003flashing-costco-feit-smart-bulbs-with-tasmota-text48">
                 disable Gamma, properly set the color slider, and enable
                 auto-discovery in Home Assistant
               </span>
@@ -260,7 +265,9 @@ const BlogPage003FlashingCostcoFeitSmartBulbsWithTasmota = (props) => {
               target="_blank"
               rel="noreferrer noopener"
             >
-              <span className={styles['text50']}>PowerRetain</span>
+              <span className="blog-page003flashing-costco-feit-smart-bulbs-with-tasmota-text50">
+                PowerRetain
+              </span>
             </a>
             <span>
               {' '}

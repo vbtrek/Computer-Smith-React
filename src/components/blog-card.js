@@ -3,20 +3,20 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import NextButton from './next-button'
-import styles from './blog-card.module.css'
+import './blog-card.css'
 
 const BlogCard = (props) => {
   return (
-    <div className={` ${styles['container']} ${styles[props.rootClassName]} `}>
+    <div className={`blog-card-container ${props.rootClassName} `}>
       <img
         alt={props.image_alt}
         src={props.image_src}
-        className={styles['image']}
+        className="blog-card-image"
       />
-      <h5 className={styles['text']}>{props.title}</h5>
-      <h5 className={styles['text1']}>{props.Date}</h5>
-      <span>{props.description}</span>
-      <NextButton button="Read more"></NextButton>
+      <h5 className="blog-card-text">{props.title}</h5>
+      <h5 className="blog-card-text1">{props.Date}</h5>
+      <span className="">{props.description}</span>
+      <NextButton button="Read more" className=""></NextButton>
     </div>
   )
 }

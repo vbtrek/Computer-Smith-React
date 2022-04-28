@@ -3,11 +3,11 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 
 import Header from '../components/header'
-import styles from './blog-page001-upgrade-h-p-microserver-from-x-penology-to-true-n-a-s-s-c-a-l-e.module.css'
+import './blog-page001-upgrade-h-p-microserver-from-x-penology-to-true-n-a-s-s-c-a-l-e.css'
 
 const BlogPage001UpgradeHPMicroserverFromXPenologyToTrueNASSCALE = (props) => {
   return (
-    <div className={styles['container']}>
+    <div className="blog-page001upgrade-h-p-microserver-from-x-penology-to-true-n-a-s-s-c-a-l-e-container">
       <Helmet>
         <title>
           BlogPage001-Upgrade-HP-Microserver-from-XPenology-to-TrueNAS-SCALE -
@@ -18,14 +18,16 @@ const BlogPage001UpgradeHPMicroserverFromXPenologyToTrueNASSCALE = (props) => {
           content="BlogPage001-Upgrade-HP-Microserver-from-XPenology-to-TrueNAS-SCALE - Computer Smith"
         />
       </Helmet>
-      <Header rootClassName="rootClassName1"></Header>
-      <div className={styles['container1']}>
-        <div className={styles['FeatureCard']}>
-          <h2 className={styles['text']}>
+      <Header rootClassName="header-root-class-name1"></Header>
+      <div className="blog-page001upgrade-h-p-microserver-from-x-penology-to-true-n-a-s-s-c-a-l-e-container1">
+        <div className="blog-page001upgrade-h-p-microserver-from-x-penology-to-true-n-a-s-s-c-a-l-e-feature-card">
+          <h2 className="blog-page001upgrade-h-p-microserver-from-x-penology-to-true-n-a-s-s-c-a-l-e-text">
             Upgrade HP Microserver from XPenology to TrueNAS SCALE
           </h2>
-          <h3 className={styles['Heading']}>17-Nov-2021</h3>
-          <span className={styles['text01']}>
+          <h3 className="blog-page001upgrade-h-p-microserver-from-x-penology-to-true-n-a-s-s-c-a-l-e-heading">
+            17-Nov-2021
+          </h3>
+          <span className="blog-page001upgrade-h-p-microserver-from-x-penology-to-true-n-a-s-s-c-a-l-e-text01">
             <span>
               I&apos;ve been running Synology DSM for a few years now using the
               XPenology loader from Jun v1.02b. This has been great for years
@@ -59,7 +61,9 @@ const BlogPage001UpgradeHPMicroserverFromXPenologyToTrueNASSCALE = (props) => {
               target="_blank"
               rel="noreferrer noopener"
             >
-              <span className={styles['text07']}>TrueNAS SCALE</span>
+              <span className="blog-page001upgrade-h-p-microserver-from-x-penology-to-true-n-a-s-s-c-a-l-e-text07">
+                TrueNAS SCALE
+              </span>
             </a>
             <span>
               , a new offering from iXSystems which is based on Linux and can

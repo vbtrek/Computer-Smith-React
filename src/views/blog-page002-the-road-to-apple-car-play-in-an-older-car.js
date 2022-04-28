@@ -3,12 +3,11 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 
 import Header from '../components/header'
-import projectStyles from '../style.module.css'
-import styles from './blog-page002-the-road-to-apple-car-play-in-an-older-car.module.css'
+import './blog-page002-the-road-to-apple-car-play-in-an-older-car.css'
 
 const BlogPage002TheRoadToAppleCarPlayInAnOlderCar = (props) => {
   return (
-    <div className={styles['container']}>
+    <div className="blog-page002the-road-to-apple-car-play-in-an-older-car-container">
       <Helmet>
         <title>
           BlogPage002-The-Road-to-Apple-CarPlay-in-an-older-car - Computer Smith
@@ -18,13 +17,15 @@ const BlogPage002TheRoadToAppleCarPlayInAnOlderCar = (props) => {
           content="BlogPage002-The-Road-to-Apple-CarPlay-in-an-older-car - Computer Smith"
         />
       </Helmet>
-      <Header rootClassName="rootClassName3"></Header>
-      <div className={styles['container1']}>
-        <div className={styles['FeatureCard']}>
-          <h2 className={styles['text']}>
+      <Header rootClassName="header-root-class-name3"></Header>
+      <div className="blog-page002the-road-to-apple-car-play-in-an-older-car-container1">
+        <div className="blog-page002the-road-to-apple-car-play-in-an-older-car-feature-card">
+          <h2 className="blog-page002the-road-to-apple-car-play-in-an-older-car-text">
             Upgrade HP Microserver from XPenology to TrueNAS SCALE
           </h2>
-          <h3 className={styles['Heading']}>17-Nov-2021</h3>
+          <h3 className="blog-page002the-road-to-apple-car-play-in-an-older-car-heading">
+            17-Nov-2021
+          </h3>
           <span>
             <span>
               I wanted to add Apple CarPlay to my 2013 Land Rover Freelander 2,
@@ -53,7 +54,9 @@ const BlogPage002TheRoadToAppleCarPlayInAnOlderCar = (props) => {
               target="_blank"
               rel="noreferrer noopener"
             >
-              <span className={styles['text07']}>website</span>
+              <span className="blog-page002the-road-to-apple-car-play-in-an-older-car-text07">
+                website
+              </span>
             </a>
             <span>
               {' '}
@@ -69,7 +72,9 @@ const BlogPage002TheRoadToAppleCarPlayInAnOlderCar = (props) => {
               target="_blank"
               rel="noreferrer noopener"
             >
-              <span className={styles['text09']}>Taimur Asad</span>
+              <span className="blog-page002the-road-to-apple-car-play-in-an-older-car-text09">
+                Taimur Asad
+              </span>
             </a>
             <span>
               {' '}
@@ -81,22 +86,22 @@ const BlogPage002TheRoadToAppleCarPlayInAnOlderCar = (props) => {
             <br></br>
             <span>I bought myself the following items:</span>
           </span>
-          <ul className={` ${styles['ul']} ${projectStyles['list']} `}>
-            <li className={projectStyles['list-item']}>
+          <ul className="blog-page002the-road-to-apple-car-play-in-an-older-car-ul list">
+            <li className="list-item">
               <span>
                 <span>A micro USB to USB OTG (on the go) adapter</span>
                 <br></br>
                 <span></span>
               </span>
             </li>
-            <li className={projectStyles['list-item']}>
+            <li className="list-item">
               <span>
                 <span>Amazon Fire HD 8 tablet</span>
                 <br></br>
                 <span></span>
               </span>
             </li>
-            <li className={projectStyles['list-item']}>
+            <li className="list-item">
               <span>
                 <span>
                   A USB
@@ -111,7 +116,9 @@ const BlogPage002TheRoadToAppleCarPlayInAnOlderCar = (props) => {
                   target="_blank"
                   rel="noreferrer noopener"
                 >
-                  <span className={styles['text21']}>carlinKit</span>
+                  <span className="blog-page002the-road-to-apple-car-play-in-an-older-car-text21">
+                    carlinKit
+                  </span>
                 </a>
                 <span> which supported wireless CarPlay</span>
                 <br></br>
@@ -134,22 +141,22 @@ const BlogPage002TheRoadToAppleCarPlayInAnOlderCar = (props) => {
               sleep:
             </span>
           </span>
-          <ul className={` ${styles['ul1']} ${projectStyles['list']} `}>
-            <li className={projectStyles['list-item']}>
+          <ul className="blog-page002the-road-to-apple-car-play-in-an-older-car-ul1 list">
+            <li className="list-item">
               <span>
                 <span>Enabled developer mode and enabled always on</span>
                 <br></br>
                 <span></span>
               </span>
             </li>
-            <li className={projectStyles['list-item']}>
+            <li className="list-item">
               <span>
                 <span>Removed the Lock Screen</span>
                 <br></br>
                 <span></span>
               </span>
             </li>
-            <li className={projectStyles['list-item']}>
+            <li className="list-item">
               <span>
                 <span>
                   Always on still dimmed the screen which I didn&apos;t like, so
