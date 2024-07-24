@@ -51,7 +51,7 @@ const Projects = (props) => {
             <FeatureCard
               text="TFS changeset simple merge. Usefull when need merge bugfix changeset to several branches. Adds support for Visual Studio 2022."
               title="AutoMerge"
-              Forked_From="CDuke/AutoMerge"
+              forkedFrom="CDuke/AutoMerge"
               rootClassName="feature-card-root-class-name1"
               className="projects-component3"
             ></FeatureCard>
@@ -78,7 +78,7 @@ const Projects = (props) => {
             <FeatureCard
               text="Create VSIX private gallery ATOM feed."
               title="Private Gallery Creator"
-              Forked_From="madskristensen/PrivateGalleryCreator"
+              forkedFrom="madskristensen/PrivateGalleryCreator"
               rootClassName="feature-card-root-class-name3"
               className="projects-component5"
             ></FeatureCard>
@@ -92,7 +92,7 @@ const Projects = (props) => {
             <FeatureCard
               text="This version has been updated from Colin's original to support Visual Studio 2019 and 2022 using Microsoft's guidelines using a Shared Project for the code."
               title="Colins ALM Corner Checkin Policies"
-              Forked_From="colindembovsky/ColinsALMCornerCheckinPolicies"
+              forkedFrom="colindembovsky/ColinsALMCornerCheckinPolicies"
               rootClassName="feature-card-root-class-name5"
               className="projects-component6"
             ></FeatureCard>
@@ -121,7 +121,7 @@ const Projects = (props) => {
         >
           <img
             alt="image"
-            src="/playground_assets/bmc-button-200h.png"
+            src="/bmc-button-200h.png"
             className="projects-image"
           />
         </a>

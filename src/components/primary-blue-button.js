@@ -7,7 +7,7 @@ import './primary-blue-button.css'
 const PrimaryBlueButton = (props) => {
   return (
     <div className={`primary-blue-button-container ${props.rootClassName} `}>
-      <button className="primary-blue-button-button button buttonSmall">
+      <button className="primary-blue-button-button button ButtonSmall">
         {props.button}
       </button>
     </div>

@@ -1,4 +1,4 @@
-.blog-page002the-road-to-apple-car-play-in-an-older-car-container {
+.blog-page002-the-road-to-apple-car-play-in-an-older-car-container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -7,7 +7,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.blog-page002the-road-to-apple-car-play-in-an-older-car-container1 {
+.blog-page002-the-road-to-apple-car-play-in-an-older-car-container1 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -20,7 +20,7 @@
   padding-bottom: var(--dl-space-space-unit);
   justify-content: center;
 }
-.blog-page002the-road-to-apple-car-play-in-an-older-car-feature-card {
+.blog-page002-the-road-to-apple-car-play-in-an-older-car-feature-card {
   width: 100%;
   display: flex;
   padding: var(--dl-space-space-unit);
@@ -29,33 +29,33 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.blog-page002the-road-to-apple-car-play-in-an-older-car-text {
+.blog-page002-the-road-to-apple-car-play-in-an-older-car-text {
   font-weight: 600;
   margin-bottom: var(--dl-space-space-unit);
 }
-.blog-page002the-road-to-apple-car-play-in-an-older-car-heading {
+.blog-page002-the-road-to-apple-car-play-in-an-older-car-heading {
   font-style: italic;
   font-weight: 300;
   margin-bottom: var(--dl-space-space-unit);
 }
-.blog-page002the-road-to-apple-car-play-in-an-older-car-text07 {
+.blog-page002-the-road-to-apple-car-play-in-an-older-car-text07 {
   text-decoration: underline;
 }
-.blog-page002the-road-to-apple-car-play-in-an-older-car-text09 {
+.blog-page002-the-road-to-apple-car-play-in-an-older-car-text09 {
   text-decoration: underline;
 }
-.blog-page002the-road-to-apple-car-play-in-an-older-car-ul {
+.blog-page002-the-road-to-apple-car-play-in-an-older-car-ul {
   list-style-type: square;
 }
-.blog-page002the-road-to-apple-car-play-in-an-older-car-text21 {
+.blog-page002-the-road-to-apple-car-play-in-an-older-car-text21 {
   text-decoration: underline;
 }
-.blog-page002the-road-to-apple-car-play-in-an-older-car-ul1 {
+.blog-page002-the-road-to-apple-car-play-in-an-older-car-ul1 {
   list-style-type: square;
   list-style-position: outside;
 }
 @media(max-width: 479px) {
-  .blog-page002the-road-to-apple-car-play-in-an-older-car-text {
+  .blog-page002-the-road-to-apple-car-play-in-an-older-car-text {
     font-style: normal;
     font-weight: 600;
   }

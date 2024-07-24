@@ -1,4 +1,4 @@
-.blog-page003-flashing-costco-feit-smart-bulbs-with-tasmota-container {
+.blog-page001-upgrade-hp-microserver-from-x-penology-to-true-nasscale-container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -7,7 +7,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.blog-page003-flashing-costco-feit-smart-bulbs-with-tasmota-container1 {
+.blog-page001-upgrade-hp-microserver-from-x-penology-to-true-nasscale-container1 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -20,7 +20,7 @@
   padding-bottom: var(--dl-space-space-unit);
   justify-content: center;
 }
-.blog-page003-flashing-costco-feit-smart-bulbs-with-tasmota-feature-card {
+.blog-page001-upgrade-hp-microserver-from-x-penology-to-true-nasscale-feature-card {
   width: 100%;
   display: flex;
   padding: var(--dl-space-space-unit);
@@ -29,32 +29,23 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.blog-page003-flashing-costco-feit-smart-bulbs-with-tasmota-text {
+.blog-page001-upgrade-hp-microserver-from-x-penology-to-true-nasscale-text {
   font-weight: 600;
   margin-bottom: var(--dl-space-space-unit);
 }
-.blog-page003-flashing-costco-feit-smart-bulbs-with-tasmota-heading {
+.blog-page001-upgrade-hp-microserver-from-x-penology-to-true-nasscale-heading {
   font-style: italic;
   font-weight: 300;
   margin-bottom: var(--dl-space-space-unit);
 }
-.blog-page003-flashing-costco-feit-smart-bulbs-with-tasmota-text13 {
-  font-family: Fira Sans;
+.blog-page001-upgrade-hp-microserver-from-x-penology-to-true-nasscale-text01 {
+  color: var(--dl-color-gray-700);
 }
-.blog-page003-flashing-costco-feit-smart-bulbs-with-tasmota-text26 {
-  text-decoration: underline;
-}
-.blog-page003-flashing-costco-feit-smart-bulbs-with-tasmota-text28 {
-  text-decoration: underline;
-}
-.blog-page003-flashing-costco-feit-smart-bulbs-with-tasmota-text48 {
-  text-decoration: underline;
-}
-.blog-page003-flashing-costco-feit-smart-bulbs-with-tasmota-text50 {
+.blog-page001-upgrade-hp-microserver-from-x-penology-to-true-nasscale-text07 {
   text-decoration: underline;
 }
 @media(max-width: 479px) {
-  .blog-page003-flashing-costco-feit-smart-bulbs-with-tasmota-text {
+  .blog-page001-upgrade-hp-microserver-from-x-penology-to-true-nasscale-text {
     font-style: normal;
     font-weight: 600;
   }

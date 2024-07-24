@@ -7,7 +7,7 @@ import './blog-page003-flashing-costco-feit-smart-bulbs-with-tasmota.css'
 
 const BlogPage003FlashingCostcoFeitSmartBulbsWithTasmota = (props) => {
   return (
-    <div className="blog-page003flashing-costco-feit-smart-bulbs-with-tasmota-container">
+    <div className="blog-page003-flashing-costco-feit-smart-bulbs-with-tasmota-container">
       <Helmet>
         <title>
           BlogPage003-Flashing-Costco-Feit-Smart-Bulbs-with-Tasmota - Computer
@@ -19,12 +19,12 @@ const BlogPage003FlashingCostcoFeitSmartBulbsWithTasmota = (props) => {
         />
       </Helmet>
       <Header rootClassName="header-root-class-name4"></Header>
-      <div className="blog-page003flashing-costco-feit-smart-bulbs-with-tasmota-container1">
-        <div className="blog-page003flashing-costco-feit-smart-bulbs-with-tasmota-feature-card">
-          <h2 className="blog-page003flashing-costco-feit-smart-bulbs-with-tasmota-text">
+      <div className="blog-page003-flashing-costco-feit-smart-bulbs-with-tasmota-container1">
+        <div className="blog-page003-flashing-costco-feit-smart-bulbs-with-tasmota-feature-card">
+          <h2 className="blog-page003-flashing-costco-feit-smart-bulbs-with-tasmota-text">
             Flashing Costco Feit Smart Bulbs with Tasmota
           </h2>
-          <h3 className="blog-page003flashing-costco-feit-smart-bulbs-with-tasmota-heading">
+          <h3 className="blog-page003-flashing-costco-feit-smart-bulbs-with-tasmota-heading">
             05-jan-2021
           </h3>
           <span>
@@ -84,7 +84,7 @@ const BlogPage003FlashingCostcoFeitSmartBulbsWithTasmota = (props) => {
               and dirty:
             </span>
           </span>
-          <span className="blog-page003flashing-costco-feit-smart-bulbs-with-tasmota-text13">
+          <span className="blog-page003-flashing-costco-feit-smart-bulbs-with-tasmota-text13">
             <span>
               # git clone https://github.com/ct-Open-Source/tuya-convert
             </span>
@@ -143,7 +143,7 @@ const BlogPage003FlashingCostcoFeitSmartBulbsWithTasmota = (props) => {
               target="_blank"
               rel="noreferrer noopener"
             >
-              <span className="blog-page003flashing-costco-feit-smart-bulbs-with-tasmota-text26">
+              <span className="blog-page003-flashing-costco-feit-smart-bulbs-with-tasmota-text26">
                 BPA800/RGBW/AG/2(P)
               </span>
             </a>
@@ -161,7 +161,7 @@ const BlogPage003FlashingCostcoFeitSmartBulbsWithTasmota = (props) => {
               target="_blank"
               rel="noreferrer noopener"
             >
-              <span className="blog-page003flashing-costco-feit-smart-bulbs-with-tasmota-text28">
+              <span className="blog-page003-flashing-costco-feit-smart-bulbs-with-tasmota-text28">
                 BPA800/RGBW/AG/2
               </span>
             </a>
@@ -246,7 +246,7 @@ const BlogPage003FlashingCostcoFeitSmartBulbsWithTasmota = (props) => {
               target="_blank"
               rel="noreferrer noopener"
             >
-              <span className="blog-page003flashing-costco-feit-smart-bulbs-with-tasmota-text48">
+              <span className="blog-page003-flashing-costco-feit-smart-bulbs-with-tasmota-text48">
                 disable Gamma, properly set the color slider, and enable
                 auto-discovery in Home Assistant
               </span>
@@ -265,7 +265,7 @@ const BlogPage003FlashingCostcoFeitSmartBulbsWithTasmota = (props) => {
               target="_blank"
               rel="noreferrer noopener"
             >
-              <span className="blog-page003flashing-costco-feit-smart-bulbs-with-tasmota-text50">
+              <span className="blog-page003-flashing-costco-feit-smart-bulbs-with-tasmota-text50">
                 PowerRetain
               </span>
             </a>

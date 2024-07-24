@@ -17,32 +17,32 @@ const Contact = (props) => {
       <div className="contact-contact">
         <div className="contact-container01">
           <div className="contact-form">
-            <h2 className="contact-text headingOne">
+            <h2 className="contact-text HeadingOne">
               <span>Say Hi!</span>
             </h2>
-            <span className="contact-text02 lead">
+            <span className="contact-text02 Lead">
               We&apos;d like to talk with you.
             </span>
             <form className="contact-form1">
-              <label className="contact-text03 label">My name is</label>
+              <label className="contact-text03 Label">My name is</label>
               <input
                 type="text"
                 placeholder="Full Name"
-                className="contact-textinput small input"
+                className="contact-textinput Small input"
               />
-              <label className="contact-text04 label">
+              <label className="contact-text04 Label">
                 I&apos;m looking for
               </label>
               <input
                 type="text"
                 placeholder="What you love"
-                className="contact-textinput1 small input"
+                className="contact-textinput1 Small input"
               />
-              <label className="contact-text05 label">Your message</label>
+              <label className="contact-text05 Label">Your message</label>
               <textarea
                 rows="8"
                 placeholder="I want to say that..."
-                className="contact-textarea textarea small"
+                className="contact-textarea textarea Small"
               ></textarea>
             </form>
             <div className="contact-container02">
@@ -62,7 +62,7 @@ const Contact = (props) => {
           <div className="contact-info">
             <div className="contact-container04">
               <div className="contact-container05">
-                <h3 className="headingTwo">
+                <h3 className="HeadingTwo">
                   <span>
                     Contact
                     <span
@@ -85,7 +85,7 @@ const Contact = (props) => {
                     </a>
                     <a
                       href="mailto:webmaster@computersmith.co.uk?subject="
-                      className="contact-link2 small"
+                      className="contact-link2 Small"
                     >
                       webmaster@computersmith.co.uk
                     </a>
@@ -94,7 +94,7 @@ const Contact = (props) => {
                     <svg viewBox="0 0 1024 1024" className="contact-icon02">
                       <path d="M512 490q44 0 75-31t31-75-31-75-75-31-75 31-31 75 31 75 75 31zM512 86q124 0 211 87t87 211q0 62-31 142t-75 150-87 131-73 97l-32 34q-12-14-32-37t-72-92-91-134-71-147-32-144q0-124 87-211t211-87z"></path>
                     </svg>
-                    <span className="contact-text09 small">Derek Smith</span>
+                    <span className="contact-text09 Small">Derek Smith</span>
                   </div>
                 </div>
                 <div className="contact-container09">

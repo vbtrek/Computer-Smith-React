@@ -18,12 +18,10 @@ const Home = (props) => {
       <div className="home-hero">
         <div className="home-container1">
           <div className="home-card">
-            <h1 className="home-text headingOne">Software Engineer.</h1>
-            <span className="home-text1 lead">
-              <span>
-                Experienced software engineer working primarily in C# with many
-                years experience.
-              </span>
+            <h1 className="home-text HeadingOne">Software Engineer.</h1>
+            <span className="home-text1 Lead">
+              Experienced software engineer working primarily in C# with many
+              years experience.
             </span>
             <div className="home-container2">
               <Link to="/contact" className="home-navlink">
@@ -41,7 +39,7 @@ const Home = (props) => {
               >
                 <img
                   alt="image"
-                  src="/playground_assets/bmc-button-200h.png"
+                  src="/bmc-button-200h.png"
                   className="home-image"
                 />
               </a>
@@ -49,11 +47,7 @@ const Home = (props) => {
           </div>
         </div>
       </div>
-      <img
-        alt="image"
-        src="/playground_assets/header-image-1500w.jpg"
-        className="home-image1"
-      />
+      <img alt="image" src="/header-image-1500w.jpg" className="home-image1" />
     </div>
   )
 }

@@ -7,7 +7,7 @@ import './secondary-button.css'
 const SecondaryButton = (props) => {
   return (
     <div className="secondary-button-container">
-      <button className="secondary-button-button button buttonSmall">
+      <button className="secondary-button-button button ButtonSmall">
         {props.button}
       </button>
     </div>

@@ -7,7 +7,7 @@ import './outline-black-button.css'
 const OutlineBlackButton = (props) => {
   return (
     <div className="outline-black-button-container">
-      <button className="outline-black-button-button button buttonSmall">
+      <button className="outline-black-button-button button ButtonSmall">
         {props.button}
       </button>
     </div>

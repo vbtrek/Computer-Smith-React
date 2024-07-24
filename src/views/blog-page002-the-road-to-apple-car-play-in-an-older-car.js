@@ -7,7 +7,7 @@ import './blog-page002-the-road-to-apple-car-play-in-an-older-car.css'
 
 const BlogPage002TheRoadToAppleCarPlayInAnOlderCar = (props) => {
   return (
-    <div className="blog-page002the-road-to-apple-car-play-in-an-older-car-container">
+    <div className="blog-page002-the-road-to-apple-car-play-in-an-older-car-container">
       <Helmet>
         <title>
           BlogPage002-The-Road-to-Apple-CarPlay-in-an-older-car - Computer Smith
@@ -18,12 +18,12 @@ const BlogPage002TheRoadToAppleCarPlayInAnOlderCar = (props) => {
         />
       </Helmet>
       <Header rootClassName="header-root-class-name3"></Header>
-      <div className="blog-page002the-road-to-apple-car-play-in-an-older-car-container1">
-        <div className="blog-page002the-road-to-apple-car-play-in-an-older-car-feature-card">
-          <h2 className="blog-page002the-road-to-apple-car-play-in-an-older-car-text">
+      <div className="blog-page002-the-road-to-apple-car-play-in-an-older-car-container1">
+        <div className="blog-page002-the-road-to-apple-car-play-in-an-older-car-feature-card">
+          <h2 className="blog-page002-the-road-to-apple-car-play-in-an-older-car-text">
             Upgrade HP Microserver from XPenology to TrueNAS SCALE
           </h2>
-          <h3 className="blog-page002the-road-to-apple-car-play-in-an-older-car-heading">
+          <h3 className="blog-page002-the-road-to-apple-car-play-in-an-older-car-heading">
             17-Nov-2021
           </h3>
           <span>
@@ -54,7 +54,7 @@ const BlogPage002TheRoadToAppleCarPlayInAnOlderCar = (props) => {
               target="_blank"
               rel="noreferrer noopener"
             >
-              <span className="blog-page002the-road-to-apple-car-play-in-an-older-car-text07">
+              <span className="blog-page002-the-road-to-apple-car-play-in-an-older-car-text07">
                 website
               </span>
             </a>
@@ -72,7 +72,7 @@ const BlogPage002TheRoadToAppleCarPlayInAnOlderCar = (props) => {
               target="_blank"
               rel="noreferrer noopener"
             >
-              <span className="blog-page002the-road-to-apple-car-play-in-an-older-car-text09">
+              <span className="blog-page002-the-road-to-apple-car-play-in-an-older-car-text09">
                 Taimur Asad
               </span>
             </a>
@@ -86,7 +86,7 @@ const BlogPage002TheRoadToAppleCarPlayInAnOlderCar = (props) => {
             <br></br>
             <span>I bought myself the following items:</span>
           </span>
-          <ul className="blog-page002the-road-to-apple-car-play-in-an-older-car-ul list">
+          <ul className="blog-page002-the-road-to-apple-car-play-in-an-older-car-ul list">
             <li className="list-item">
               <span>
                 <span>A micro USB to USB OTG (on the go) adapter</span>
@@ -116,7 +116,7 @@ const BlogPage002TheRoadToAppleCarPlayInAnOlderCar = (props) => {
                   target="_blank"
                   rel="noreferrer noopener"
                 >
-                  <span className="blog-page002the-road-to-apple-car-play-in-an-older-car-text21">
+                  <span className="blog-page002-the-road-to-apple-car-play-in-an-older-car-text21">
                     carlinKit
                   </span>
                 </a>
@@ -141,7 +141,7 @@ const BlogPage002TheRoadToAppleCarPlayInAnOlderCar = (props) => {
               sleep:
             </span>
           </span>
-          <ul className="blog-page002the-road-to-apple-car-play-in-an-older-car-ul1 list">
+          <ul className="blog-page002-the-road-to-apple-car-play-in-an-older-car-ul1 list">
             <li className="list-item">
               <span>
                 <span>Enabled developer mode and enabled always on</span>
